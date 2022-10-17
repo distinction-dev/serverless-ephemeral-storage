@@ -1,0 +1,17 @@
+{
+  "name": "serverless-ephemeral-storage",
+  "version": "1.0.0",
+  "description": "A Serverless Framework Plugin allowing to set ephemeralStorageSize property of lambda functions for older version of serverless packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "aws",
+    "Serverless Plugin",
+    "Lambda ephemeralStorageSize",
+    "ephemeralStorageSize"
+  ],
+  "license": "ISC"
+}

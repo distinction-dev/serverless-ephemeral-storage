@@ -2,7 +2,7 @@
 
 ### Installation
 
-`npm install --save-dev serverless-ephemeral-storage`
+`npm install --save-dev @distinction-dev/serverless-ephemeral-storage`
 
 add Plugin to your `serverless.yml` in the plugins section.
 
@@ -15,7 +15,7 @@ provider:
   name: aws
 
 plugins:
-  - serverless-ephemeral-storage
+  - "@distinction-dev/serverless-ephemeral-storage"
 
 functions:
   hello:

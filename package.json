@@ -13,5 +13,5 @@
     "Lambda ephemeralStorageSize",
     "ephemeralStorageSize"
   ],
-  "license": "ISC"
+  "license": "MIT"
 }

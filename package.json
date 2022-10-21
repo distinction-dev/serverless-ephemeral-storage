@@ -1,6 +1,6 @@
 {
   "name": "@distinction-dev/serverless-ephemeral-storage",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A Serverless Framework Plugin allowing to set ephemeralStorageSize property of lambda functions for older version of serverless packages",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,16 @@
     "Lambda ephemeralStorageSize",
     "ephemeralStorageSize"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "dependencies": {
+    "semantic-release": "^19.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
